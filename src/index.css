@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: lightcyan;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+nav {
+  background-color: cyan;
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+  }
+}
+
+.table {
+  background-color: whitesmoke;
+  border: 2px solid black;
+  min-width: 400px;
+  width: 100%;
+}
+
+.table thead tr {
+  background-color: #00775f;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+  
+}
+.table tbody tr {
+  border-bottom: 1px solid #761717;
+  
+}
+
+.table tbody tr:hover {
+  background-color: lemonchiffon;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: center;
+  
+  .deletebutton{
+    border: none;
+    background-color: red;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+  }
+
+  .Updatebutton{
+    
+    border: none;
+    background-color: green;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+  }
+}
+
+.Homepage {
+  text-align: center;
+  margin-top: 50px;
+  h1 {
+    background-color: yellow;
+    padding: 12px 12px;
+  }
+}
+.operations {
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 3px grey;
+  margin: 0px auto;
+  justify-content: space-between;
+  background-color: yellowgreen;
+}
+
+.color-changing {
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: red;
+  }
+}
+
+
+h1{
+  background-color: lightsalmon;
+  padding: 14px 14px;
+  text-align: center;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgb(228, 225, 225);
+  box-shadow: 0 3px 8px grey;
+  border-radius: 8px;
+  margin-bottom: 50px;
+  div {
+    margin: 12px 0;
+  }
+  layout {
+    display: inline-block;
+    font-size: 20px;
+  }
+  input {
+    margin-top: 8px;
+    width: 95%;
+    padding: 10px;
+    border: 1px solid lightgreen;
+    box-shadow: 0 2px 2px lightgreen;
+    border-radius: 4px;
+  }
+  button {
+    background-color: rgb(12, 179, 245);
+    border: none;
+    padding: 12px 12px;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+}
